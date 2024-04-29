@@ -1,6 +1,6 @@
 {
   "name": "get-next-app",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "cli.js",
   "bin": {
     "get-next-app": "./cli.js"
@@ -8,12 +8,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "abhijeet_vadera",
   "license": "MIT",
   "dependencies": {
     "cli-progress": "^3.12.0",
     "commander": "^12.0.0",
     "fs-extra": "^11.2.0"
+  },
+  "keywords": [
+    "cli",
+    "command-line",
+    "tool"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhijeet-Vadera/get-next-app"
   }
 }
